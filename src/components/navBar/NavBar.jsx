@@ -23,7 +23,8 @@ const NavBar = () => {
                     <li><a href='#'>Contact</a></li>
                 </ul>
                 <div className={style.hamburger} onClick={handleClick}>
-                    <HiOutlineMenuAlt4 className={style.icon}/>
+                    {click ? (<FaRegTimesCircle className={style.icon}/>) :
+                   ( <HiOutlineMenuAlt4 className={style.icon}/>)}
                 </div>
             </div>
 
