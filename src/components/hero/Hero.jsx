@@ -10,7 +10,7 @@ const Hero = () => {
                 <p className={style.search}>Search  the lagest selection of luxury high-rise apartments, multi-family homes, and luxury homes.</p>
             <form className={style.form}>
                 <div>
-                    <input type='text' placeholder='Enter Keyword...'/>
+                    <input type='text' placeholder='Enter Keyword...' className={style.inputform}/>
                 </div>
                 <div className={style.radio}>
                     <input type='radio' checked/>
