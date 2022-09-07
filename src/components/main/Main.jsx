@@ -19,7 +19,7 @@ const Main = () => {
                 <img src={Apt2} alt=''/>
                 <img src={Apt3} alt=''/>
             </div>
-            <button className={style.btn}>View All</button>
+            <button className='btn'>View All</button>
         </div>
     );
 };
