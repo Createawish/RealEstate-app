@@ -69,3 +69,15 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 940px){
+    .hero{
+        height: 70vh;
+    }
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .inputform{
+        width: 100%;
+    }
+}
